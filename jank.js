@@ -44,12 +44,49 @@ if(t_fn==0){
 
 
 
+// function full_name() {
+//     console.log("いぐおさんこんにちは");
+// }
+
+// full_name();
+
+function full_name2(s_name) {
+    console.log(s_name + "さん");
+}
+
+console.log("購入履歴");
+
+console.log(full_name2("ムサシ")+"のお気に入りリスト");
+// ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+
+function full_name3(f_name) {
+    return f_name +"さん"
+}
+
+console.log("購入履歴");
+
+console.log(full_name3("ムサ")+"のお気に入りリスト")
 
 
 
+function fruits(pain) {
+    console.log(pain*50);
+}
+
+fruits(9);
+
+function fruit(apple) {
+    var value = apple * 40;
+    return value;
+}
 
 
+console.log(fruit(20));
 
 
+var orange = 300;
 
-
+// apple10 + orange
+console.log(fruit(10) + orange);
+console.log("musasi");
+console.log(fruits(10) + orange)
